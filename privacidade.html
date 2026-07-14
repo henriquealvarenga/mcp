@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Formulários para Claude</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Formulários para Claude</p>
+  <h1>Política de Privacidade</h1>
+  <p class="date">Vigente a partir de 14 de julho de 2026</p>
+
+  <div class="box">
+    <strong>Resumo em uma frase:</strong> este aplicativo roda inteiramente no seu computador,
+    acessa os seus Google Forms somente com a sua autorização, e não envia nenhum dado seu
+    para o desenvolvedor ou para terceiros — porque não há servidores intermediários.
+  </div>
+
+  <h2>Quem somos</h2>
+  <p>
+    <strong>Formulários para Claude</strong> (o “aplicativo”) é um software de código aberto (licença MIT),
+    desenvolvido por Henrique Alvarenga da Silva como código de exemplo de um livro sobre o Claude Code.
+    O código-fonte completo pode ser auditado em
+    <a href="https://github.com/claude-book/mcp-server-google-forms">github.com/claude-book/mcp-server-google-forms</a>.
+  </p>
+  <p>
+    O desenvolvedor fornece o aplicativo (incluindo a credencial verificada usada na autorização com o Google),
+    mas <strong>não opera nenhum servidor</strong> e <strong>não recebe, não armazena e não acessa</strong>
+    os seus dados ou as suas credenciais.
+  </p>
+
+  <h2>O que o aplicativo faz</h2>
+  <p>
+    Ele funciona como uma ponte local entre o assistente Claude e a API oficial do Google Forms:
+    cria formulários, adiciona perguntas, publica formulários e lê respostas — sempre em nome
+    da conta Google que <em>você</em> autorizou, no <em>seu</em> computador.
+  </p>
+
+  <h2>Quais dados o aplicativo acessa</h2>
+  <p>Ao autorizar, você concede três permissões (escopos) do Google:</p>
+  <ul>
+    <li><code>forms.body</code> — criar e editar o conteúdo dos seus formulários;</li>
+    <li><code>forms.responses.readonly</code> — ler as respostas dos seus formulários;</li>
+    <li><code>drive.file</code> — acessar no Google Drive somente os arquivos criados pelo próprio aplicativo.</li>
+  </ul>
+
+  <h2>Onde os seus dados ficam</h2>
+  <ul>
+    <li>As credenciais de acesso (tokens) ficam gravadas <strong>apenas no seu computador</strong>, na pasta de credenciais do aplicativo.</li>
+    <li>O conteúdo dos formulários e as respostas trafegam <strong>diretamente entre o seu computador e os servidores do Google</strong>, por conexão criptografada (HTTPS).</li>
+  </ul>
+
+  <h2>O que não fazemos</h2>
+  <ul>
+    <li>Não coletamos, não armazenamos e não vemos nenhum dado seu — o aplicativo não possui servidores próprios.</li>
+    <li>Não compartilhamos nem vendemos dados a terceiros.</li>
+    <li>Não usamos os seus dados para treinar modelos de inteligência artificial.</li>
+    <li>Não usamos cookies, rastreadores ou ferramentas de análise.</li>
+  </ul>
+
+  <h2>Uso limitado (política do Google)</h2>
+  <p>
+    O uso e a transferência, por este aplicativo, de informações recebidas das APIs do Google obedecem à
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>,
+    incluindo os requisitos de <strong>Uso Limitado</strong> (Limited Use). Os dados acessados são usados
+    exclusivamente para prover as funcionalidades descritas acima, a pedido do próprio usuário.
+  </p>
+
+  <h2>Como revogar o acesso</h2>
+  <p>
+    A qualquer momento, acesse <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+    e remova o acesso do aplicativo. Você também pode simplesmente apagar a pasta de credenciais do seu computador.
+  </p>
+
+  <h2>Alterações nesta política</h2>
+  <p>
+    Alterações serão publicadas nesta página, com a data de vigência atualizada, e ficam
+    registradas no histórico público do repositório no GitHub.
+  </p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas? Escreva para <a href="mailto:henriquealvarenga@gmail.com">henriquealvarenga@gmail.com</a>.</p>
+
+  <footer>
+    <p>MIT © 2026 Henrique Alvarenga da Silva</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="termos.html">Termos</a>
+      <a href="https://github.com/claude-book/mcp-server-google-forms">GitHub</a>
+    </nav>
+  </footer>
+</div>
+</body>
+</html>
