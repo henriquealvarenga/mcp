@@ -26,6 +26,7 @@ h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .5rem; text-wrap: balance;
 h2 { font-size: 1.12rem; margin: 2rem 0 .4rem; }
 p, li { margin: .45rem 0; }
 .lead { font-size: 1.15rem; color: var(--muted); }
+.byline { color: var(--muted); font-style: italic; font-size: .98rem; margin: -.15rem 0 0; }
 ul { padding-left: 1.3rem; }
 a { color: var(--accent); }
 a:hover { color: var(--accent-dark); }
