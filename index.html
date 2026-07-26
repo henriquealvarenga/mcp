@@ -8,58 +8,56 @@
 </head>
 <body>
 <div class="wrap">
-  <p class="eyebrow">Forms IA (MCP)</p>
-  <h1>Crie e edite Google Forms conversando com a IA</h1>
-  <p class="byline">por Henrique Alvarenga da Silva</p>
-  <p class="lead">
-    Um servidor MCP local, de código aberto, que dá a assistentes de IA (como o Claude) o poder
-    de montar formulários e quizzes, publicar e ler respostas — usando a sua própria conta Google,
-    direto do seu computador.
-  </p>
 
-  <h2>O que é</h2>
-  <p>
-    <strong>Forms IA (MCP)</strong> é um servidor MCP (Model Context Protocol) que roda
-    <strong>no seu computador</strong> e conecta um assistente de IA à API oficial do Google Forms.
-    Você pede em linguagem natural — "crie um quiz de 5 perguntas sobre fotossíntese" — e o
-    formulário aparece na sua conta Google. Funciona com clientes compatíveis com MCP; o
-    <strong>Claude</strong> é o exemplo com passo a passo pronto. É voltado especialmente para <strong>professores</strong>.
-  </p>
+  <header class="hero">
+    <p class="eyebrow">Forms IA (MCP)</p>
+    <h1>Crie e edite Google Forms conversando com a IA</h1>
+    <p class="byline">por Henrique Alvarenga da Silva</p>
+    <p class="lead">
+      Peça em português — "crie um quiz de 5 perguntas sobre fotossíntese" — e o formulário
+      aparece na sua conta Google. Feito especialmente para professores.
+    </p>
+    <span class="badge-verified">✓ App verificado pelo Google</span>
+  </header>
 
-  <h2>Como funciona (e por que é seguro)</h2>
-  <ul>
-    <li>Roda <strong>localmente</strong>: nenhum dado passa por servidores nossos — nós não temos servidores.</li>
-    <li>Usa <strong>a sua conta Google</strong>, autorizada por você, com permissões mínimas (formulários e leitura de respostas).</li>
-    <li>O conteúdo dos formulários e as respostas trafegam <strong>direto entre o seu computador e o Google</strong>.</li>
-  </ul>
-
-  <h2>Como começar</h2>
-  <p>
-    O passo a passo de instalação, escrito para quem não programa, está no manual do projeto:
-    <a href="https://claude-book.github.io/mcp-server-google-forms/">claude-book.github.io/mcp-server-google-forms</a>.
-  </p>
-
-  <h2>Código aberto</h2>
-  <p>
-    O software é livre (licença MIT) e pode ser auditado em
-    <a href="https://github.com/claude-book/mcp-server-google-forms">github.com/claude-book/mcp-server-google-forms</a>.
-  </p>
-
-  <ul class="links">
-    <li><a class="primary" href="https://claude-book.github.io/mcp-server-google-forms/">Manual de instalação</a></li>
-    <li><a href="privacidade.html">Política de privacidade</a></li>
-    <li><a href="termos.html">Termos de uso</a></li>
-    <li><a href="https://github.com/claude-book/mcp-server-google-forms">GitHub</a></li>
+  <ul class="cards">
+    <li>
+      <a class="card card--sobre" href="sobre.html">
+        <span class="card__icon">📄</span>
+        <span class="card__title">Sobre o app</span>
+        <span class="card__desc">O que é, como funciona e por que é seguro usar com a sua conta Google.</span>
+        <span class="card__arrow">Entender →</span>
+      </a>
+    </li>
+    <li>
+      <a class="card card--manual" href="https://claude-book.github.io/mcp-server-google-forms/manual.html">
+        <span class="card__icon">🛠️</span>
+        <span class="card__title">Manual de instalação</span>
+        <span class="card__desc">Passo a passo em 3 etapas, escrito para quem nunca mexeu com terminal.</span>
+        <span class="card__arrow">Instalar →</span>
+      </a>
+    </li>
+    <li>
+      <a class="card card--rapido" href="https://claude-book.github.io/mcp-server-google-forms/rapido.html">
+        <span class="card__icon">⚡</span>
+        <span class="card__title">Instalar rápido</span>
+        <span class="card__desc">Os 2 comandos essenciais, para quem já tem experiência com o terminal.</span>
+        <span class="card__arrow">Ver os comandos →</span>
+      </a>
+    </li>
   </ul>
 
   <footer>
     <p>© 2026 Henrique Alvarenga da Silva · contato: <a href="mailto:henriquealvarenga@gmail.com">henriquealvarenga@gmail.com</a></p>
     <nav>
+      <a href="sobre.html">Sobre</a>
       <a href="privacidade.html">Privacidade</a>
       <a href="termos.html">Termos</a>
       <a href="https://github.com/claude-book/mcp-server-google-forms">GitHub</a>
+      <a href="https://www.npmjs.com/package/mcp-server-google-forms">npm</a>
     </nav>
   </footer>
+
 </div>
 </body>
 </html>

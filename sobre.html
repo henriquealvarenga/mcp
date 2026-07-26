@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sobre o app — Forms IA (MCP)</title>
+<link rel="stylesheet" href="styles.css">
+<style>:root { --page: var(--c-sobre); }</style>
+</head>
+<body>
+<div class="wrap page-accent">
+
+  <a class="back" href="index.html">← Início</a>
+
+  <p class="eyebrow">Forms IA (MCP)</p>
+  <h1>Sobre o app</h1>
+
+  <h2>O que é</h2>
+  <p>
+    <strong>Forms IA (MCP)</strong> é um servidor MCP (Model Context Protocol) que roda
+    <strong>no seu computador</strong> e conecta um assistente de IA à API oficial do Google Forms.
+    Você pede em linguagem natural — "crie um quiz de 5 perguntas sobre fotossíntese" — e o
+    formulário aparece na sua conta Google. Funciona com clientes compatíveis com MCP; o
+    <strong>Claude</strong> é o exemplo com passo a passo pronto. É voltado especialmente para <strong>professores</strong>.
+  </p>
+
+  <h2>Como funciona (e por que é seguro)</h2>
+  <ul>
+    <li><strong>App verificado pelo Google:</strong> a tela de autorização é limpa, com o nome Forms IA (MCP), sem avisos de segurança.</li>
+    <li>Roda <strong>localmente</strong>: nenhum dado passa por servidores nossos — nós não temos servidores.</li>
+    <li>Usa <strong>a sua conta Google</strong>, autorizada por você, com permissões mínimas (formulários e leitura de respostas).</li>
+    <li>O conteúdo dos formulários e as respostas trafegam <strong>direto entre o seu computador e o Google</strong>.</li>
+    <li>Você pode <strong>revogar o acesso</strong> a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  </ul>
+
+  <h2>O que ele faz</h2>
+  <ul>
+    <li>Cria formulários e quizzes <strong>inteiros numa única operação</strong> (título, perguntas, gabarito e pontos).</li>
+    <li>Nove tipos de pergunta: texto curto e longo, escolha única, caixas de seleção, lista suspensa, escala linear, data, hora e avaliação.</li>
+    <li>Edita sem recriar (preserva respostas já recebidas), organiza seções, publica e despublica.</li>
+    <li><strong>Lê as respostas</strong> — o professor confere o resultado do quiz pela conversa.</li>
+  </ul>
+
+  <h2>Código aberto</h2>
+  <p>
+    O software é gratuito e livre (licença MIT), e pode ser auditado em
+    <a href="https://github.com/claude-book/mcp-server-google-forms">github.com/claude-book/mcp-server-google-forms</a>.
+    O pacote é distribuído pelo npm como <code>mcp-server-google-forms</code>.
+  </p>
+
+  <ul class="links">
+    <li><a class="primary" href="https://claude-book.github.io/mcp-server-google-forms/manual.html">Ir para o Manual de instalação →</a></li>
+    <li><a href="privacidade.html">Política de privacidade</a></li>
+    <li><a href="termos.html">Termos de uso</a></li>
+  </ul>
+
+  <footer>
+    <p>© 2026 Henrique Alvarenga da Silva · contato: <a href="mailto:henriquealvarenga@gmail.com">henriquealvarenga@gmail.com</a></p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="privacidade.html">Privacidade</a>
+      <a href="termos.html">Termos</a>
+      <a href="https://github.com/claude-book/mcp-server-google-forms">GitHub</a>
+    </nav>
+  </footer>
+
+</div>
+</body>
+</html>
